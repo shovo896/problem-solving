@@ -34,3 +34,7 @@ class SavingsAccount(BankAccount):
     def__init__(self,account_number,holder_name,balance=0,overdraft_limit=0):
         super().__init__(account_number,holder_name,balance):
         self.overdraft_limit=overdraft_limit
+    def__init__(self,account_number,holder_name,balance=0,interest_rate=0.01):
+        super().__init__(account_number,holder_name,balance):
+        self.interest_rate=interst_rate
+    def
