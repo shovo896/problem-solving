@@ -24,3 +24,13 @@ class CheckingAccount(BankAccount):
     def__init__(self,account_number,holder_name,balance=0,interest_rate=0.01):
         super().__init__(account_number,holder_name,balance):
         self.overdraft_limit=overdraft_limit
+    def withdraw(self, amount):
+       if self_balance-amount>=self.overdraft_limit:
+           self.balance-=amount
+           print(f"{amount}withdrawn.New balance:{self.balance}")
+        else:
+           print("Overdraft limit exceed!")
+class SavingsAccount(BankAccount):
+    def__init__(self,account_number,holder_name,balance=0,overdraft_limit=0):
+        super().__init__(account_number,holder_name,balance):
+        self.overdraft_limit=overdraft_limit
