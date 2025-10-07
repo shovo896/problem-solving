@@ -1,12 +1,10 @@
-#include<stdio.h>
-
-int main()
-{
-    int arr[3]={1,2,3};
-    int *p=arr;
-    for (int i=0;i<3;i++)
-    {
-        printf("arr[%d]=%d\n (via pointer : %d)\n",i,arr[i],*(p+i));
-    }
+#include<stdio.h> 
+int main(){
+    int a = 10;
+    int *p = &a;
+    int **q = &p;
+    printf("Value of a: %d\n", a);
+    printf("Value of a using single pointer p: %d\n", *p);
+    printf("Value of a using double pointer q: %d\n", **q);
     return 0;
 }
