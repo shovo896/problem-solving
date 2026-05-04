@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-       printf("Enter a number: ");
+       printf("Enter a number:");
        long long int x;
        scanf("%lld",&x);
        int wz = x/10;
