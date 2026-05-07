@@ -3,7 +3,7 @@ int main(){
        char c;
        scanf("%c",&c);
        char ans;
-       ans = c - 32;
+       ans = c - ('a'+1);
        printf("%c",ans);
        return 0;
 
