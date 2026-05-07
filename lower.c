@@ -1,13 +1,10 @@
-#include <ctype.h>
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
        char c;
-
-       if (scanf("%c", &c) != 1) {
-              return 1;
-       }
-
-       printf("%c", tolower((unsigned char)c));
+       scanf("%c",&c);
+       char ans;
+       ans = c + ('a' - 'A');
+       printf("%c",ans);
        return 0;
+
 }
