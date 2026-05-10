@@ -1,9 +1,16 @@
 #include<stdio.h> 
 int main(){
-       int n;
-       scanf("%d",&n);
-       int ans = (n + 1) / 2;
-       printf("%d",ans);
+       int n,m;
+       scanf("%d%d",&n,&m);
+       int sum=0;
+       for(int i=0;i<n;i++){
+              int w,v;
+              scanf("%d%d",&w,&v);
+              if(w<=m){
+                     sum+=v;
+              }
+       }
+       printf("%d",sum);
        return 0;
 
 }
