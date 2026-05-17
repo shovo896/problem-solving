@@ -19,7 +19,7 @@ int main(){
        int x, y;
        scanf("%d%d",&x,&y);
        //printf("%d %d",!(x==y)?200:200,!(x==y)?300:300);
-       printf("%d",x==2 && y==3);
+       printf("%d",x==2 || y==3);
 
 
        return 0;
