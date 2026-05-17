@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-       int x = 100 ;
+       //int x = 100 ;
        // x %= 10;
        //x--;
        // x++;
@@ -12,10 +12,13 @@ int main(){
        //printf("%d",++x);
        //printf("%d",--x);
        //printf("%d %d",++x,++x);
-       printf("%d\n", x--);
+       //printf("%d\n", x--);
        // post decrement ekhane 99
-       printf("%d\n", --x);
-       printf("%d", x++);
+       //printf("%d\n", --x);
+       //printf("%d", x++);
+       int x, y;
+       scanf("%d%d",&x,&y);
+
 
        return 0;
 
