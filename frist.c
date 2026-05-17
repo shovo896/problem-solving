@@ -14,6 +14,7 @@ int main(){
        //printf("%d %d",++x,++x);
        printf("%d\n", x--);
        // post decrement ekhane 99
+       printf("%d\n", --x);
        printf("%d", x++);
 
        return 0;
