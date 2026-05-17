@@ -18,7 +18,7 @@ int main(){
        //printf("%d", x++);
        int x, y;
        scanf("%d%d",&x,&y);
-       printf("%dd",!(x==y)?200:200);
+       printf("%d %d",!(x==y)?200:200,!(x==y)?300:300);
 
 
        return 0;
