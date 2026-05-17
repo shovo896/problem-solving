@@ -11,6 +11,7 @@ int main(){
        // x /=100
        //printf("%d",++x);
        printf("%d",--x);
+
        return 0;
 
 }
