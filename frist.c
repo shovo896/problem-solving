@@ -13,7 +13,7 @@ int main(){
        //printf("%d",--x);
        //printf("%d %d",++x,++x);
        printf("%d\n", --x);
-       printf("%d", x++);
+       printf("%d", ++x);
 
        return 0;
 
