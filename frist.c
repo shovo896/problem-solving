@@ -5,11 +5,11 @@ int main(){
        //x--;
        // x++;
        //++x;
-       --x;
+       //--x;
 
        // x -=10
        // x /=100
-       printf("%d",x);
+       printf("%d",x++);
        return 0;
 
 }
