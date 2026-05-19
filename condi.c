@@ -1,5 +1,15 @@
 #include<stdio.h>
 int main(){
-       int a = 10, b = 5;
-       printf("%d\n", a <= b);
- } // Output: 1 (true)
+       int marks;
+       scanf("%d",&marks);
+       if (marks >= 50)
+       {
+              printf("Pass\n");
+       }
+       else
+       {
+              printf("Fail\n");
+
+       }
+       return 0;
+}
