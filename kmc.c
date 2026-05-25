@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main(){
-    int X;
-    scanf("%d",&X);
-    if (X>11){
-        printf("Yes\n");
+    int W ,H ; 
+    scanf("%d%d",&W,&H);
+
+    if (60 <= W && 130 >= H ){
+        printf("YES\n");
     }
     else{
-        printf("No\n");
+        printf("NO\n");
     }
     return 0;
 }
