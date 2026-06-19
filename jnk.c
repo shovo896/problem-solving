@@ -17,3 +17,5 @@ int main(){
        printf("Sum of odd-indexed elements: %d\n", odd);
        printf("Sum of even-indexed elements: %d\n", even);
 }
+
+
