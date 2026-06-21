@@ -7,7 +7,13 @@ int main(){
               int  num ;
               scanf("%d",&num);
               freq[num]=1 ; // mark the number as present
-              
+
+       }
+       for (int i = 1; i <= n;i++)
+       {
+              if(freq[i]==0)
+              {
+                     printf("%d ", i);
+              }
        }
 }
-       
