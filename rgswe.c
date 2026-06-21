@@ -12,4 +12,5 @@ int main(){
               }
               printf("Answer for week %d: %d\n", week, ans_for_this_week);
        }
+       printf("Total answer: %d\n", ans_for_this_week);
 }
