@@ -7,6 +7,7 @@ int main(){
               for (int j = 0; j < w; ++j){
                      scanf(" %c", &arr[i][j]);
               }
+              getchar();
               for (int i = 0; i < h; ++i)
               {
                      for (int j = 0; j < w; ++j)
@@ -15,4 +16,5 @@ int main(){
                      }
                      printf("\n");
               }
+}
 }
