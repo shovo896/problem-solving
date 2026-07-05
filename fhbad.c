@@ -17,6 +17,8 @@ int main(){
               c[i] = 0;
               for (int j = 0; j < m;j++){
                      c[i] += arr[i][j] * b[j];
+                     printf("%d ", c[i]);
+              }
+              printf("\n");
               }
        }
-}
