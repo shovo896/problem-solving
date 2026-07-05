@@ -12,4 +12,11 @@ int main(){
        for (int i = 0; i < m;i++){
               scanf("%d", &b[i]);
        }
+       int c[n];
+       for (int i = 0; i < n;i++){
+              c[i] = 0;
+              for (int j = 0; j < m;j++){
+                     c[i] += arr[i][j] * b[j];
+              }
+       }
 }
