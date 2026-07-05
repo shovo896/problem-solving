@@ -7,7 +7,7 @@ int main(){
               for (int j = 0; j < w; ++j){
                      scanf(" %c", &arr[i][j]);
               }
-              getchar();
+              //getchar();
               for (int i = 0; i < h; ++i)
               {
                      for (int j = 0; j < w; ++j)
@@ -17,4 +17,13 @@ int main(){
                      printf("\n");
               }
 }
+int ans = 0;
+for (int i = 0; i < h;i++){
+       for (int j = 0; j < w;j++){
+              if (arr[i][j] =='#'){
+                     ans++;
+              }
+       }
+}
+printf("%d\n", ans);
 }
