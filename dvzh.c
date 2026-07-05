@@ -22,4 +22,6 @@ int main(){
        }
        printf("%d\n", ans);
 }
+printf("%d\n", ans);
+}")
 }
