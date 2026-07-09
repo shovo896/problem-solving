@@ -6,5 +6,15 @@ int main(){
        scanf("%s", st2);
        int x =strcmp(st1, st2);
        printf("%d\n", x);
+       
 
+       if(x==0){
+              // first one is smaller 
+       }
+       else if (x<0){
+              // first one is smaller 
+       }
+       else{
+              // second one is smaller 
+       }
 }
