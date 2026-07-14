@@ -2,11 +2,10 @@
 int main(){
        char s[101];
        scanf("%s",s);
-       int i = 0;
-       while(s[i] !=0 )
-              i++;
-       s[i - 1] = '4';
-       printf("%s\n",s);
-       return 0;
-       
+       int len = strlen(s);
+       for (int i = 0; i < len - 1; i++){
+              printf("%c",s[i]);
+       }
+       printf("%c\n", s[len - 1]);
+       return 0; 
 }
