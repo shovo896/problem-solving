@@ -10,6 +10,7 @@ int main(){
                      int sq_c = a * a + b * b;
                      int c = sqrt(sq_c);
                      if (c*c == sq_c){
+                            printf("%d %d %d\n",a,b,c);
                             ans = ans + 1;
                      }
                      }
