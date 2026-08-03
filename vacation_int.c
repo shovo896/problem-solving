@@ -4,9 +4,11 @@ int main(){
     int n,d ; 
     scanf("%d %d",&n,&d);
     char st[n][d+1];
+
     scanf("%s",st);
 
     char st[d+1];
+    printf("%d %d",n,d);
     for(int j=0;j<d;j++){
         st[j]='0';
         
