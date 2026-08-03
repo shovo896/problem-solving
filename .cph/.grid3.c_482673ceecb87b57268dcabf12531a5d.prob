@@ -1,0 +1,1 @@
+{"name":"Local: grid3","url":"/Users/imac/problem-solving/grid3.c","tests":[{"id":1785763908817,"input":"abc \nca?\nbca","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/imac/problem-solving/grid3.c","group":"local","local":true}
