@@ -8,7 +8,8 @@ int main(){
 
     char st[d+1];
     for(int j=0;j<d;j++){
-        }
+        st[j]='0';
+        
         for(int i=0;i<n;i++){
             st[j]=(x||0);
         
