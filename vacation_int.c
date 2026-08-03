@@ -8,10 +8,12 @@ int main(){
 
     char st[d+1];
     for(int j=0;j<d;j++){
-        for(int i=0;i<n;i++){
-            printf("%c",st[i][j]);
         }
-        printf("\n")
+        for(int i=0;i<n;i++){
+            st[j]=(x||0);
+        
+        }
+        
     }
     int cur = 0 ,mx=0;
     for(int i=0;i<d;i++){
