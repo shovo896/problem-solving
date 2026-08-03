@@ -9,7 +9,7 @@ int main(){
     for(int i=0;i<d;i++){
         if(st[i]=='0'){
             cur++;
-            if(cur>max){
+            if(cur>mx){
                 mx=cur;
             }
         }
