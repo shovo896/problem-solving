@@ -1,0 +1,1 @@
+{"name":"Local: grid-alter","url":"/Users/imac/problem-solving/grid-alter.c","tests":[{"id":1785759133786,"input":"abc \nbca \nc?a","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/imac/problem-solving/grid-alter.c","group":"local","local":true}
