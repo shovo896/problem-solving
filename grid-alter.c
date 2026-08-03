@@ -14,6 +14,17 @@ int main(){
                 cnt[st[i][j]-'a']++;}
         }
     }
+        if (cnt[0]==0){
+            printf("a\n");
+        }
+         if (cnt[1]==0){
+            printf("b\n");
+        }
+         if (cnt[2]==0){
+            printf("c\n");
+        }
+    
+    
 
 }
 
