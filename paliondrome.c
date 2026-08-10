@@ -14,9 +14,9 @@ int numRev(int x){
 
 int isPalindrome(int x){
     if (x == numRev(x))
-        return 0; // is palindrome
+        return 1; // is palindrome
     else
-        return 1 ;
+        return 0 ;
 
 }
 
