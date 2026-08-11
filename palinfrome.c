@@ -3,6 +3,12 @@
 void isPlaindrome(int* arr,int n){
     for(int i=0 ;i <n/2;i++){
         // i <----> n-i-1 ei duita soman 
+        if(arr[i]!=arr[n-i-1]){ 
+            // If any pair doesn't match, it's not a palindrome
+            return 0 ;
+        }
+    }
+    return 1 ;// no mismatch found 
 
     }
 }
@@ -10,12 +16,7 @@ void isPlaindrome(int* arr,int n){
 int main(){
     int n = 5 ; 
     int arr[]={5,4,3,2,1}; 
-
-    // Reverse part 
-    Reverse(arr,n); 
-    for(int i =0 ;i<n ; i++){
-        printf("%d\n",arr[i]);
-    printf("\n"); 
+    printf("%d\n",isPlaindrome(arr,n));
+    return 0 ; 
     
     }
-}
