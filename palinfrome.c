@@ -13,7 +13,11 @@ int main(){
     int n = 5;
     int arr[] = {5, 4, 3, 2, 1};
 
-    printf("%d\n", isPlaindrome(arr, n));
+    if (isPlaindrome(arr, n)){
+        printf("The array is a palindrome.\n");
+    } else {
+        printf("The array is not a palindrome.\n");
+    }
 
     return 0;
 }
