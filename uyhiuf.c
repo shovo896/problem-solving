@@ -1,6 +1,10 @@
 #include<stdio.h> 
-void A(int* a ){
+void A(int* a ){ // pass by value 
     *a =10 ; 
+}
+
+void AFailed(int a ){
+    a = 10 ;  
 }
 int main(){
     int a = 5 ; 
