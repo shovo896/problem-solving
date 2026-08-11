@@ -17,6 +17,8 @@ int main(){
     // passing array 
     fun(arr);
 
+    fun(arr+2);
+
     return 0 ;
 
 
