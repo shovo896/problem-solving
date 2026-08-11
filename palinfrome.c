@@ -2,6 +2,7 @@
 
 void isPlaindrome(int* arr,int n){
     for(int i=0 ;i <n/2;i++){
+        // i <----> n-i-1 ei duita soman 
 
     }
 }
