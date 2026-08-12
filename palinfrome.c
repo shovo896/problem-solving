@@ -18,6 +18,7 @@ int main(){
     } else {
         printf("The array is not a palindrome.\n");
     }
+    
 
     return 0;
 }
