@@ -1,6 +1,9 @@
 
 #include<iostream> 
 using namespace std; 
+#define fastio ios_base::sync_with_stdio(0),cin.tie(nullptr),cout.tie(nullptr); 
+#define ll long long 
+using namespace std; 
 int main(){ 
    // int a = 5 ; 
     //cin >> a ; 
@@ -9,6 +12,11 @@ int main(){
 
     // fast input output 
 
-    ios_base::sync_with_stdio(0),cin.tie(nullptr),cout.tie(nullptr);
+    //ios_base::sync_with_stdio(0),cin.tie(nullptr),cout.tie(nullptr);
+
+    //ll a,b; 
+    //cin >> a >> b;
+
+    ll a,b ; 
     
 }
