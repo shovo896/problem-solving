@@ -8,3 +8,16 @@ int isPalindrome(int *arr, int n){
     }
     return 1;
 }
+
+int main(){
+    int n = 5;
+    int arr[] = {5, 4, 3, 2, 1};
+
+    if (isPalindrome(arr, n)){
+        cout << "The array is a palindrome.\n";
+    } else {
+        cout << "The array is not a palindrome.\n";
+    }
+
+    return 0;
+}
